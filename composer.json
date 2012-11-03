@@ -1,0 +1,14 @@
+{
+    "name": "netego/Nel",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/netego/Nel.git"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "3.7.*",
+        "phpunit/dbunit": ">=1.2",
+        "zendframework/zendframework": ">=2.0"
+    }
+ }
