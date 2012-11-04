@@ -4,11 +4,15 @@ namespace Nel\Vies;
 class Client
 {
     /**
+     * Check VAT service WSDL
+     *
      * @var string
      */
     private $wsdl = "http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl";
 
     /**
+     * Soap Client
+     *
      * @var \Zend\Soap\Client
      */
     private $soapClient;
